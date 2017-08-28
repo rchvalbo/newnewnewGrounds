@@ -1,0 +1,116 @@
+
+.line-separator {
+	height:1px;
+	background:#d1d1d1;
+	border-bottom:1px solid #d1d1d1;
+    margin-bottom: 20px;
+}
+
+.navRow {
+    display: block;
+    background: white;
+    position: relative;
+    padding-right: 0px;
+}
+
+.myNameContainer {
+    display: block;
+    background: #68a2ff;
+    border-style: solid;
+    border-color: #68a2ff;
+    border-width: 1px;
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+}
+
+.myNameContainer h1 {
+    color: aliceblue;
+    margin-bottom: 0px;
+    margin-top: 35px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.topNav {
+    /*
+    border-style: solid;
+    border-color: orange;
+    border-width: 1px;*/
+    
+    position: absolute;
+    right: 0;
+    float: none;
+    padding: 0px;
+    margin: 0px auto;
+    height: 100%;
+    text-align: center;
+    
+    /* Solution to centering the navigation 
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%); */
+}
+
+.topNav li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    float: left;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.topNav li a {
+    background: #68a2ff;
+    color: aliceblue;
+}
+
+#left-nav-button {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#mid-nav-button {
+    margin-right: 20px;
+}
+#right-nav-button {
+    
+}
+
+@media (min-width: 1200px) {
+    .myNameContainer {
+        margin-left: 40px;
+    }
+    
+    
+}
+
+@media (max-width: 991px) {
+    .myNameContainer {
+        position: relative;
+        margin: 0px;
+    }
+    
+    .topNav {
+        float:left;
+        position: relative;
+        margin-top: 40px;
+        background: white;
+        border-bottom-style: solid;
+        border-color: lightgrey;
+        border-width: 1px; 
+    }
+}
+
+@media (max-width:640px) {
+    #left-nav-button {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    #mid-nav-button {
+        margin-right: 10px;
+    }
+}

@@ -1,0 +1,44 @@
+#contact-form-section {
+    position: relative;
+	padding-top: 30px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-bottom: 25px;
+	width: 60%;
+    margin-left: 0px;
+	margin-right: 20px;
+}
+
+#contact-form-section h1{
+	color: #0daa9a;
+    font-size: 30px;
+}
+
+#contact-form {
+    position: relative;
+    width: 100%;
+}
+
+#contact-form h3 {
+    color: #999999;
+    margin-bottom: .3em;
+}
+
+#contact-form input, textarea {
+    width: 100%;
+    margin-bottom: 1em;
+    color: #cccccc;
+}
+
+#contact-form input[type=submit] {
+    background: #0daa9a;
+    border: none;
+    color: white;
+    width: 20%;
+    height: 2em;
+    font-size: 19px;
+}
+
+#contact-form textarea {
+    height: 15em;
+}

@@ -1,0 +1,84 @@
+
+/* Google Font Cheat Sheet
+font-family: 'Baloo Bhaijaan', cursive;
+font-family: 'Encode Sans Expanded', sans-serif;
+font-family: 'Indie Flower', cursive;
+font-family: 'Muli', sans-serif;
+font-family: 'Dosis', sans-serif;  */
+
+body {
+    background: black;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+h2 {
+    font-size: 40px;
+    color: whitesmoke;
+}
+
+.nav-row {
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: #cccccc;
+    margin-bottom: 50px;
+}
+
+.brand-logo-col {
+    font-family: 'Indie Flower', cursive;
+    color: orangered;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.brand-logo-col h1 {
+    font-size: 70px;
+}
+
+.nav-button {
+    background: none;
+    border-style: solid;
+    border-width: 2px;
+    border-color: dimgrey;
+    color: dimgrey;
+}
+
+.nav-button:hover {
+    border-color: white;
+    color:orangered;
+}
+
+.container {
+    width:90%;
+    position: relative
+}
+
+.section-label-row {
+    margin-bottom: 50px;
+}
+
+.game-box {
+    position: relative;
+}
+
+.game-box img {
+    max-width: 60%;
+    margin-bottom: 40px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #4c4c4c;
+        
+     -webkit-transition:0.2s;
+    -moz-transition:0.2s;
+    -o-transition:0.2s;
+    transition:0.2s;
+}
+
+.game-box img:hover {
+    max-width:80%;
+}
+
+
+

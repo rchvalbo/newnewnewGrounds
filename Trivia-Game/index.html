@@ -1,0 +1,145 @@
+<DOCTYPE html>
+    <html>
+        <head>
+            <title>Trivia-Game</title>
+            
+            <link rel="stylesheet" href="assets/css/reset.css">
+            
+            <!-- Google Fonts -->
+            <link href="https://fonts.googleapis.com/css?family=Baloo+Bhaijaan|Dosis|Encode+Sans+Expanded|Indie+Flower|Muli" rel="stylesheet">
+            
+            <!-- JQuery source -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+            <!-- Latest compiled and minified CSS -->
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+            <!-- Optional theme -->
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+            <!-- Latest compiled and minified JavaScript -->
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+            
+            <!-- My personal stylesheet -->
+            <link rel="stylesheet" href="assets/css/style.css">
+        </head>
+        <body>
+            
+            <div class="container">
+                <div class="row top-nav">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <a href="../html/index.html"><button class="btn" id="home-button">Home</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center header-row">
+                        <h1>Final Science Quiz</h1>
+                        <p>Do you have what it takes?</p>
+                    </div>
+                </div>
+                <!-- Div shown before Quiz Starts (pre-quiz div) -->
+                <div id="pre-quiz">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 welcome-prompt text-center">
+                            <p class="welcome">Welcome! You've landed on the ultimate science quiz. Who needs science class when you have our quiz?</p>
+                        </div>
+                    </div>
+                    <div class="row" style="margin-bottom: 100px;">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 md-section text-center">
+                            <div class="get-started-img">
+                                <img class="hover-img" src="assets/images/test-tube.png" style="width:100px;"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 diff-section text-center">
+                            <div class="dropdown text-center">
+                                <button class="btn my-btn btn-primary dropdown-toggle" id="difficulty" type="button" data-toggle="dropdown"><span class="text">Choose Your Difficulty</span>
+                                  <span><img src="assets/images/Shape@2x.png" style="max-width:20px;"/></span></button>
+                              <ul class="dropdown-menu dropdown-menu-center">
+                                <li class="diff">Easy</li>
+                                <li class="diff">Medium</li>
+                                <li class="diff">Hard</li>
+                              </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 diff-section text-center">
+                            <div class="dropdown text-center">
+                                <button class="btn my-btn btn-primary dropdown-toggle" id="questions" type="button" data-toggle="dropdown"><span class="text">How Many Questions?</span>
+                              <span><img src="assets/images/Shape@2x.png" style="max-width:20px;"/></span></button>
+                              <ul class="dropdown-menu dropdown-menu-center">
+                                <li class="numQ">5</li>
+                                <li class="numQ">10</li>
+                                <li class="numQ">15</li>
+                              </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center done-section">
+                            <button class="start-btn start-button inactive-start" id="start" disabled>
+                                START QUIZ
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- End Of Pre-Quiz div -->
+                
+                <!-- Questioniare Section begins -->
+                <div id="quiz-section">
+                    <div class="row">
+                        <div class="col-lg-12 question-counter text-center">
+                            <h1>0/0</h1>
+                        </div>
+                    </div>
+                    <div class="row question-section">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center question">
+                            <div id="question-box">
+                                <h2></h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="answer-list">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <button class="answer">
+                                    this button
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Questioniare Section -->
+                
+                <!-- Finished Section Begins -->
+                <div id="Finished">
+                    <div class="row done-label-row">
+                        <div class="col-lg-12 text-center finished-label">
+                            <h1 style="font-family: 'Encode Sans Expanded', sans-serif;">Finished</h1>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 text-center outcome-div">
+                            <h1>Your Score: <span id="outcome">87%</span></h1>
+                        </div>
+                    </div>
+                    <div class="row finished-butt-row">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
+                            <button class="finished-option" id="enough"><img src="assets/images/enough.png" style="max-width:100px; padding-right: 40px;"/><span class="text">I've had enough!</span></button>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
+                            <button class="finished-option" id="next-level"><span class="text">That was easy</span><img src="assets/images/Level-up.png" style="max-width:80px; padding-left: 40px;"/></button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Finished Section Ends -->
+            </div>
+            
+            <script src="assets/javascript/app.js"></script>
+        </body>
+        
+    </html>

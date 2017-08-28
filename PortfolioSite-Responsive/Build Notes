@@ -1,0 +1,3 @@
+Setting a Width, even if it’s a percentage will cause issues when combining with padding. I would say use either one but not necessarily both unless in full screen. 
+
+- use padding to define the edges of the box-sections and material inside of them.

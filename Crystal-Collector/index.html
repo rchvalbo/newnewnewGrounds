@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cristal-Collector</title>
+        
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="assets/css/reset.css">
+        
+        <link href="https://fonts.googleapis.com/css?family=Asap+Condensed|Cabin|Oxygen|Quicksand" rel="stylesheet">
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        
+        <!-- Personal Stylesheet -->
+        <link rel="stylesheet" href="assets/css/style.css">
+        
+
+        <!-- Game Javascript code -->
+    </head>
+    <body>
+        <div class="container">
+            <div class="row top-nav">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <a href="../html/index.html"><button class="btn" id="home-button">Home</button></a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row lrg-row-1">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center header-row">
+                <h1 style="font-size: 50px;">Crystal Collector!</h1>
+            </div>
+        </div>
+        <div class="row lrg-row-2">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                <h2>How To Play</h2>
+                <ul>
+                    <li>- You will be given a random number at the start of the game.</li>
+                    <li>- There are for crystals below. By clicking on a crystal, you will add a specific amount of points to your score.</li>
+                    <li>- You win the game by matching your total score to a random number. You lose the game if your total score goes above the random number.</li>
+                    <li>- The value of each crystal is hidden from you until you click on it.</li>
+                    <li>- Each time the game starts, new random numbers will be assigned to each crystal.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row arrow-down-row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                <img class="hover-img" src="assets/images/Down-Arrow-PNG-File.png" style="position: absolute; max-height: 20px;">
+            </div>
+        </div>
+        <div class="row lrg-row-3">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center to-reach">
+                <h2>To Reach: <span id="target-score">0</span></h2>
+            </div>
+        </div>
+        <div class="row small-row-4">
+            <div class="col-lg-6 col-md-6 col-sm-12 colxs-12 wins-col text-center">
+                <h3>Wins: <span id="wins">0</span></h3>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 losses-col text-center">
+                <h3>Losses: <span id="losses">0</span>
+                </h3>
+            </div>
+        </div>
+        <div class="row small-row-5">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                <h2>Pick Your Crystal</h2>
+            </div>
+        </div>
+        <div class="row crystal-buttons">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                <div class="crystals-wrapper">
+                    <button class="trans-button fire"><img src="assets/images/fire-crystal.png"></button>
+                    <button class="trans-button ice"><img src="assets/images/ice-crystal.png"></button>
+                    <button class="trans-button dark"><img src="assets/images/dark-crystal.png"></button>
+                    <button class="trans-button plasma"><img src="assets/images/plasma-crystal.png"></button>
+                </div>
+            </div>
+        </div>
+        <div class="row current-score text-center">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center " id="cur-score">
+                <h2>Current Score: <span id="score">0</span></h2>
+            </div>
+        </div>
+        <script src="assets/js/game.js"></script>
+    </body>
+</html>

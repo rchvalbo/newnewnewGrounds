@@ -1,0 +1,72 @@
+
+body {
+    background-image: url("../images/dark-triangles.png");
+}
+
+.box-section {
+    margin-top: 20px;
+}
+
+p {
+    line-height: 2.0;
+}
+
+#about-me {
+    display: inline-block;
+    position: relative;
+    background: white;
+	padding-top: 30px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-bottom: 25px;
+    margin-left: 0px;
+	margin-right: 20px;
+}
+
+#about-me h1{
+	color: #0daa9a;
+    font-size: 30px;
+}
+
+.photo-of-me {
+    float: left;
+    margin-right: 20px;
+}
+
+#connect-with-me {
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    
+    background: white;
+    float: left;
+    padding: 25px;
+}
+
+#connect-with-me h1 {
+    font-size: 20px;
+    color: #0daa9a;
+    margin-bottom: 10px;
+}
+
+.img-link {
+    float: left;
+    margin: 5px;
+    height: 45px;
+    width: 45px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+@media (min-width: 1200px) {
+    #about-me {
+        margin-left: 40px;
+    }
+}
+
+@media (max-width: 990px){
+    #about-me {
+        padding: 0px;
+    }
+}
+

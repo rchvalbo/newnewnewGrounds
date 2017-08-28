@@ -1,0 +1,27 @@
+
+p {
+    line-height: 2.0;
+}
+
+#about-me {
+	padding-top: 30px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-bottom: 25px;
+	width: 60%;
+    margin-left: 0px;
+	margin-right: 20px;
+}
+
+#about-me h1{
+	color: #0daa9a;
+    font-size: 30px;
+}
+
+.photo-of-me {
+    float: left;
+    margin-right: 20px;
+}
+
+
+

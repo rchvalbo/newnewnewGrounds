@@ -1,0 +1,50 @@
+
+body {
+    background-color: black;
+}
+
+.top-nav {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.btn {
+    -webkit-transition:0.2s;
+    -moz-transition:0.2s;
+    -o-transition:0.2s;
+    transition:0.2s;
+}
+
+#home-button {
+    float: left;
+    background: none;
+    color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #282828;
+}
+
+#home-button:hover {
+    border-color: white;
+}
+
+h1 {
+    color: aliceblue;
+}
+
+.sub-header {
+    color: aquamarine;
+}
+
+.to-fill {
+    color: white;
+}
+
+.mainCont {
+    
+}
+
+#hangman-info-box {
+    border-style: solid;
+    border-color: #282828;
+}
